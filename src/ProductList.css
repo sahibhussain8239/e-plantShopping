@@ -39,6 +39,23 @@ body {
    
 }
 
+.category-around-line{
+    width: 30%;
+    height: 2px;
+    background-color: #4CAF50;
+    margin: 20px 0;
+    display: flex;
+    justify-self: center;
+    justify-items: center;
+}
+
+.category-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;

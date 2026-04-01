@@ -19,8 +19,7 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleContinueShopping = (e) => {
-    e.preventDefault();
-      onContinueShopping(); // Call the function passed as a prop to navigate back to the product list
+    onContinueShopping(); // Call the function passed as a prop to navigate back to the product list
   };
 
   const handleCheckoutShopping = (e) => {
@@ -46,7 +45,7 @@ const CartItem = ({ onContinueShopping }) => {
     const amount = parseFloat(item.cost.substring(1));
     return (amount * item.quantity).toFixed(2);
   };
-  
+
 
   return (
     <div className="cart-container">

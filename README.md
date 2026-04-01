@@ -1,1 +1,2 @@
-# coding-project-template
+# E-Plant Shopping
+### This project was developed as an assignment for the IBM Full Stack Software Developer Certificate using React and Redux. It is an e-commerce web application dedicated to selling house plants. The site features an introductory landing page that highlights the company's background and includes a "Get Started" button. This seamlessly redirects users to the main shopping interface, where they can browse available plants and manage their purchases using a fully functional shopping cart.
